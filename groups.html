@@ -57,36 +57,16 @@
         </a>
       </div>
       <ul class="navbar-links">
-        <li>
-          <a href="/"><span class="navbar-slash">|</span>Home</a>
-        </li>
-        <li>
-          <a href="/about.html"><span class="navbar-slash">|</span>About</a>
-        </li>
-        <li>
-                    <a href="/advisor.html"><span class="navbar-slash">|</span>Advisor</a>
-        </li>
-        <li>
-          <a href="/CTF.html"><span class="navbar-slash">|</span>CTF</a>
-        </li>
-        <li>
-          <a href="/events.html"><span class="navbar-slash">|</span>Events</a>
-        </li>
-        <li>
-          <a href="/gallery.html"><span class="navbar-slash">|</span>Gallery</a>
-        </li>
-        <li>
-          <a href="/groups.html" style="color: #0000FF; opacity: 1;"><span class="navbar-slash">|</span>Groups</a>
-        </li>
-        <li>
-          <a href="/links.html"><span class="navbar-slash">|</span>Links</a>
-        </li>
-        <li>
-          <a href="/sponsors.html"><span class="navbar-slash">|</span>Sponsors</a>
-        </li>
-        <li>
-          <a href="/MemberShip.html"><span class="navbar-slash">|</span>Membership</a>
-        </li>
+        <li><a href="/" class="nav-link"><span class="navbar-slash">|</span>Home</a></li>
+        <li><a href="/about.html" class="nav-link"><span class="navbar-slash">|</span>About</a></li>
+        <li><a href="/advisor.html" class="nav-link"><span class="navbar-slash">|</span>Advisor</a></li>
+        <li><a href="/events.html" class="nav-link"><span class="navbar-slash">|</span>Events</a></li>
+        <li><a href="/gallery.html" class="nav-link"><span class="navbar-slash">|</span>Gallery</a></li>
+        <li><a href="/groups.html" class="nav-link active-nav-link"><span class="navbar-slash">|</span>Groups</a></li>
+        <li><a href="/links.html" class="nav-link"><span class="navbar-slash">|</span>Links</a></li>
+        <li><a href="/MemberShip.html" class="nav-link"><span class="navbar-slash">|</span>Membership</a></li>
+        <li><a href="/sponsors.html" class="nav-link"><span class="navbar-slash">|</span>Sponsors</a></li>
+        <li><a href="/CTF.html" class="nav-link"><span class="navbar-slash">|</span>CTF</a></li>
       </ul>
 
       <div class="navbar-controls">
@@ -180,41 +160,90 @@
 </section>
     </div>
   </main>
-  <!-- Footer 2 !!Dont Touch!! -->
+  <!-- Enhanced Footer -->
   <footer class="site-footer">
     <div class="footer-wrapper">
-      <div class="footer-info-container">
+      <!-- Footer Logo & Description Section -->
+      <div class="footer-logo-section">
+        <div class="footer-logos-container">
+          <div class="footer-logo"></div>
+        </div>
+        <p class="footer-description">
+          Cyber Security Club at Uttara University focuses on ethical hacking, digital forensics, and cybersecurity awareness. Join us to enhance your skills.
+        </p>
+      </div>
+
+      <!-- Quick Links Section -->
+      <div class="footer-links-section">
+        <div class="footer-links-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links-list">
+            <li><a href="/"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="/about.html"><i class="fas fa-users"></i>About Us</a></li>
+            <li><a href="/events.html"><i class="fas fa-calendar"></i>Events</a></li>
+            <li><a href="/gallery.html"><i class="fas fa-images"></i>Gallery</a></li>
+            <li><a href="/CTF.html"><i class="fas fa-flag"></i>CTF</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-column">
+          <h3>Resources</h3>
+          <ul class="footer-links-list">
+            <li><a href="/links.html"><i class="fas fa-link"></i>Useful Links</a></li>
+            <li><a href="/sponsors.html"><i class="fas fa-handshake"></i>Sponsors</a></li>
+            <li><a href="/groups.html"><i class="fas fa-layer-group"></i>Groups</a></li>
+            <li><a href="/MemberShip.html"><i class="fas fa-id-card"></i>Membership</a></li>
+            <li><a href="/advisor.html"><i class="fas fa-chalkboard-teacher"></i>Advisor</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact & Social Section -->
+      <div class="footer-contact-section">
         <div class="footer-title-container">
           <div class="footer-title">
-            <h1>Cyber Security Club,Uttara University</h1>
+            <h1>Get In Touch</h1>
           </div>
           <a class="email" href="mailto:cybersecurity@club.uttara.ac.bd?subject=General%20Inquiry%20-%20Cyber%20Security%20Club&body=Hello%20Cyber%20Security%20Club%20Team%2C%0A%0AI%20would%20like%20to%20inquire%20about%3A%0A%0A%5BPlease%20describe%20your%20inquiry%20here%5D%0A%0AThank%20you%20for%20your%20time.%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D%0A%5BYour%20Contact%20Information%5D">
             <div class="mail">
+              <i class="fas fa-envelope"></i>
               <span>Contact@CyberSecurityClub</span>
             </div>
           </a>
         </div>
-        <div class="footer-description-container">
+        <!-- Social Links -->
+        <div class="footer-social-container">
+          <a class="social-link" rel="me noopener" target="_blank" href="https://facebook.com/csc.uu.bd"
+            title="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a class="social-link" rel="me noopener" target="_blank" href="https://www.linkedin.com/in/cscuu"
+            title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a class="social-link" rel="me noopener" target="_blank" href="https://discord.gg/N83SjBHjzG"
+            title="Discord">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a class="social-link" rel="me noopener" target="_blank" href="https://github.com/Cyber-Security-Club-Uttara-University"
+            title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <!-- University Logo -->
+        <div class="university-logo-container">
+          <div class="university-logo" title="Uttara University"></div>
         </div>
       </div>
-      <!-- Footer End -->
-      <div class="footer-social-container">
-        <a class="social-link" rel="me" target="_blank" href="https://facebook.com/csc.uu.bd" title="RITSEC">
-          <i class="fa-brands fa-square-facebook" style="color: #0000ff;"></i>
-        </a>
-        <a class="social-link" rel="me" target="_blank" href="https://www.linkedin.com/in/cscuu" title="RITSEC">
-          <i class="fa-brands fa-linkedin" style="color: #0000ff;"></i>
-        </a>
-        <a class="social-link" rel="me" target="_blank" href="https://discord.gg/N83SjBHjzG"
-          title="https://discord.com/invite/W7NefdyzHZ">
-          <i class="fa-brands fa-discord" style="color: #0000ff;"></i>
-        </a>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="site-credit">
+          ©2025 | Developed by Cyber Security Club, Uttara University
+        </div>
       </div>
-      <div class="site-credit">
-©2025 | Developed by Cyber Security Club, Uttara University 
-      </div>
-      <!-- Footer !!don't touch!! -->
+    </div>
   </footer>
+  <!-- Footer !!don't touch!! -->
 
   <!-- Cloudflare Pages Analytics -->
   <!-- <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer="" src="../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{" token":="" "c7b6a9a298ab4908ad9d239862eb38fc"}"=""></script>Cloudflare Pages Analytics -->
